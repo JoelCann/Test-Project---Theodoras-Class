@@ -1,0 +1,149 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
+}
+
+#nav-logo {
+  font-size: 3rem;
+  color: white;
+}
+
+header {
+  width: 100vw;
+}
+
+nav {
+  padding: 1%;
+  background-color: rgba(0, 0, 0, 0.707);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+#nav-items {
+  display: flex;
+  justify-content: end;
+  column-gap: 2.4rem;
+}
+
+.nav-item {
+  color: white;
+}
+
+#hero-section {
+  background-image: url(./img/hero_pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+}
+
+#hero-elements {
+  background-color: rgba(0, 0, 0, 0.617);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  row-gap: 1rem;
+}
+
+#hero-section h1 {
+  font-size: 3.5rem;
+  color: white;
+}
+
+#hero-section p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+#hero-section button {
+  padding: 15px 25px;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  background-color: orange;
+}
+
+#features {
+  padding: 7% 0;
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  column-gap: 2.5rem;
+}
+
+#features h1 {
+  color: orange;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+}
+
+.list-item {
+  display: flex;
+  column-gap: 1rem;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #4d4d4d;
+}
+
+.chkmrk {
+  color: orange;
+}
+
+#works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 2rem;
+}
+
+#heading {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+#heading h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 100;
+  color: #4d4d4d;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.gallery-item {
+    
+}
