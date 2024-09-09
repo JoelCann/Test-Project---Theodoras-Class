@@ -200,7 +200,7 @@ nav {
 }
 
 footer {
-  height: 90vh;
+  height: 70vh;
   width: 100vw;
 }
 
@@ -210,7 +210,7 @@ footer h2 {
 
 #footer-second-part {
   background-color: #333333;
-  height: 80vh;
+  height: 70vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -218,7 +218,6 @@ footer h2 {
 }
 
 #upper {
-  /* padding: 7; */
   display: flex;
   justify-content: center;
   column-gap: 7rem;
@@ -286,12 +285,13 @@ ul {
   top: 45px;
   margin: 0 auto;
   left: 50%;
+  margin-left: -319px;
   /* translate: (50%, 0); */
 }
 
 hr {
-  border-top: 1px solid #ffffff69;
-  width: 80%;
+  border-top: 1px solid #ffffff24;
+  width: 70%;
   /* display: flex;
   justify-content: center; */
   margin: 0 auto;
