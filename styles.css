@@ -223,8 +223,7 @@ footer h2 {
   justify-content: center;
   column-gap: 7rem;
   margin-top: 6rem;
-  border-style: solid;
-  border-width: 1px;
+  margin-bottom: 6rem;
 }
 
 #upper a {
@@ -279,13 +278,23 @@ ul {
 #lower {
   text-align: center;
   padding-top: 8rem;
-  border-top: 10px;
-  border-width: 10px;
-  border-color: #ffffff;
+  position: relative;
+}
+
+#lower p {
+  position: absolute;
+  top: 45px;
+  margin: 0 auto;
+  left: 50%;
+  /* translate: (50%, 0); */
 }
 
 hr {
-  height: 30px;
+  border-top: 1px solid #ffffff69;
+  width: 80%;
+  /* display: flex;
+  justify-content: center; */
+  margin: 0 auto;
 }
 
 .icon {
